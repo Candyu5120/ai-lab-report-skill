@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Lab Report 人工智能实验报告"
+  short_description: "按参考格式快速编写实验报告，固定四级编号和无曲线流程图"
+  icon_large: "./assets/preview.png"
+  default_prompt: "使用 $artifact-template-ai-lab-report，根据本次实验题目、代码和运行资料编写 Word 实验报告。沿用参考版式，编号为一、／1.／（1）／①，流程图使用 Visio 基本样式且无曲线。"
+policy:
+  allow_implicit_invocation: true
